@@ -31,6 +31,7 @@ h5,h6{
 }
 img {
   max-width: 100%;
+  max-height: 100%;  
 }
 ul {
   list-style: none;
@@ -50,6 +51,7 @@ ul {
 }
 .logo {
   width: 245px;
+  height: auto;
   margin-left: 30px;
 }
 .sec_imagens {
@@ -57,9 +59,13 @@ ul {
   justify-content: space-evenly;
   padding-top: 15dvh;
 }
-.sec_imagens picture {
+.sec_imagens picture{
   width: 350px;
 }
+.sec_imagens picture a img{
+  width: 350px;
+}
+
 .sec_imagens picture h2 {
   color: aliceblue;
   text-align: center;
@@ -72,10 +78,17 @@ ul {
 .inicio{
    height: 0px;
 }
+.linha_red{
+  background-color: red;
+  max-width: 100%;
+  height: 7px;
+  margin: 0%;
+  padding: 0%;
+}
 .foot_pages {
   color: #c7bfbf;
   text-align: center;
-  padding: 15px 0;
+  /* padding: 15px 0; */
   position:relative;
   bottom: 0;
   width: 100%;
@@ -84,7 +97,7 @@ ul {
 .foot_inicio {
   color: #c7bfbf;
   text-align: center;
-  padding: 15px 0;
+  /* padding: 15px 0; */
   position:fixed;
   bottom: 0;
   width: 100%;
@@ -97,7 +110,11 @@ ul {
   
   .h1_principal, .h1_fisica, .h1_lp{
     visibility: hidden;
+    font-size: 2rem;
     
+  }
+  .foot_inicio{
+    position: relative;
   }
 
 }
