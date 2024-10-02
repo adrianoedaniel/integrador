@@ -7,6 +7,7 @@ body {
   background-image: url(../img/espacial.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000000;
 }
 a {
   text-decoration: none;
@@ -92,8 +93,11 @@ ul {
 .container{
     padding-top: 45px;
 }
-@media screen and (max-width: 400px) {
-  .menu {
+@media screen and (max-width: 480px) {
+  
+  .h1_principal, .h1_fisica, .h1_lp{
     visibility: hidden;
+    
   }
+
 }
